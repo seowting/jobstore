@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-banner {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-image: url('https://assets.jobstore.my/images/header/jobseeker_header_purple_bg.png');
+    background-position: 50% 50%;
+    color: #fff;
+    height: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 1000;
+}
+
+.left-content {
+    flex: 1;
+    text-align: right;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: -335px;
+}
+
+.right-content {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+    color: #000;
+    font-size: 14px;
+    margin-left: 80px;
+}
+
+button.checkout {
+    background-color: #4724d8;
+    color: #fff;
+    border: 2px solid #4724d8;
+    border-radius: 6px;
+    padding: 12px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    height: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+button.checkout:hover {
+    background-color: #fff;
+    color: #4724d8;
+}
+
+button.employers {
+    background-color: #fe7e00;
+    border: 2px solid #fe7e00;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+button.employers:hover {
+    background-color: #fff;
+    color: #fe7e00;
+}
+
+.body-container-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 1300px;
+    padding-bottom: 20px;
+}
+
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: auto;
+}
+
+.navigation-bar a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 25px;
+    white-space: nowrap;
+}
+
+.navigation-bar a:hover {
+    color: #0704e1;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.actions a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 25px;
+}
+
+.actions a:hover {
+    color: #0704e1;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.pic-jobstore img {
+    display: block;
+    max-width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.pic-mycareerfair img {
+    display: flex;
+    align-items: center;
+    max-width: 150px;
+    height: auto;
+    margin-left: 195%;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 550px;
+    background-color: #fff;
+    border: 2px solid #0704e1;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    margin: 0px;
+    font-weight: medium;
+}
+
+.vertical-line {
+    position: absolute;
+    height: calc(100% - 20px);
+    width: 1px;
+    background-color: #888;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40%;
+    z-index: 1;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.location-icon img,
+.search-icon img {
+    max-width: 20px;
+    height: auto;
+}
+
+.search-icon img:hover {
+    background-color: #0704e1;
+    border: 2px solid #0704e1;
+    border-radius: 20px;
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+}
+
+.view-all-jobs {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    color: #888;
+    font-weight: medium;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.view-all-jobs:hover {
+    background-color: #fff;
+    color: #333;
+    border-color: #888;
+}
+
+.body-event {
+    display: flex;
+    align-items: center;
+}
+
+.event-container {
+    background-image: url("https://assets.jobstore.my/images/header/mycareerfair_bg.png");
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 54%;
+    height: 85px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.countdown-container {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+.countdown-container span {
+    margin-right: 5px;
+}
+
+.event-image img {
+    width: 100%;
+    height: auto;
+    margin-left: -10px;
+}
+
+.event-details p {
+    margin-top: -10px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.government-container {
+    width: 280px;
+    height: 106px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-right: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.government-container img {
+    width: 100%;
+    height: auto;
+}
+
+.singapore-container {
+    width: 260px;
+    height: 109px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.singapore-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.event-container:hover,
+.government-container:hover,
+.singapore-container:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.event-vertical-line {
+    border-left: 2px solid #ccc;
+    height: 60px; 
+    margin-right: 20px;
+}
+
+.word {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    text-align: center;
+}
+
+.body-container-middle {
+    background-color: #dde7f0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    /* flex-direction: column; */
+    /* padding: 20px; */
+    margin: 0 auto;
+    /* max-width: 1300px; */
+    padding-bottom: 20px;
+    /* z-index: 1000; */
+}
